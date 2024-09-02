@@ -1,0 +1,395 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero {
+    background: #f4f4f4;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.bigimg{
+    position: relative;
+}
+
+.bigimg p{
+    position: absolute;
+    color: white;
+   top: 50%;
+   left: 50%; 
+   transform: translate(-50%,-50%);
+   font-size: xx-large;
+}
+
+#children{
+    display: flex;
+    margin-left: 100px;
+}
+
+
+.over{
+    width: 500px;
+    background-color: #F86F2D;
+    padding: 20px;
+    height: 250px;
+}
+
+.blind{
+    width: 300px;
+    background-color: #FA8E3C;
+    padding: 20px;
+    height: 250px;
+}
+
+.now{
+    width: 300px;
+    background-color: #F9A93A;
+    padding: 20px;
+    height: 250px;
+}
+
+.button{
+    width: 110px;
+    background-color: #ffffff;
+    color: black;
+   padding: 10px;
+   cursor: pointer;
+}
+
+
+.button:hover{
+    background-color: black;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#payment{
+    display: flex;
+    justify-content: space-between;
+}
+
+#people{
+    background-color: #FDFDFD;
+    height: 400px;
+}
+
+#people h3{
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#people p{
+    padding-top: 10px;
+    color: gray;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.ivan{
+    display: flex;
+    gap: 30px;
+    width: 450px;
+    padding: 10px;
+    height: 200px;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.ivan img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contact {
+    background: #f4f4f4;
+    padding: 2rem 0;
+    background-color: #F87C44;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact button {
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.away{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+.media{
+    display: flex;
+    font-size: 50px;
+    gap:30px;
+    padding-left: 0;
+}
+
+.site{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.site a{
+    text-decoration: none;
+    color: white;
+}
+
+.location {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer{
+    background-color: #252525;
+    color: white;
+}
+
+
+@media (max-width: 576px) {
+    .about .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .about .row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about .col-6 {
+        width: 100%;
+        margin-bottom: 20px; 
+    }
+
+    .about .col-6 img {
+        width: 100%;
+        height: auto; 
+    }
+
+    .about h3 {
+        font-size: 1.5rem; 
+        margin-bottom: 10px;
+    }
+
+    .about span {
+        font-size: 0.875rem; 
+        line-height: 1.5;
+    }
+
+    #children {
+        display: block;
+        margin-left: 0; 
+    }
+
+    .over, .blind, .now {
+        width: 100%;
+        margin-bottom: 20px; 
+    }
+
+    .over {
+        background-color: #F86F2D;
+        padding: 15px;
+        height: auto;
+    }
+
+    .blind {
+        background-color: #FA8E3C;
+        padding: 15px;
+        height: auto; 
+    }
+
+    .now {
+        background-color: #F9A93A;
+        padding: 15px;
+        height: auto; 
+    }
+
+    .button {
+        width: 100%;
+        padding: 12px;
+        text-align: center; 
+    }
+
+    .button:hover {
+        background-color: black;
+        color: #ffffff;
+    }
+
+    #people{
+        height: 1000px;
+    }
+    
+    #payment {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ivan {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .media {
+        font-size: 30px; 
+    }
+
+    .site a {
+        font-size: 14px; 
+    }
+
+    .location li {
+        font-size: 14px; 
+    }
+
+    footer p{
+        margin-top: 30px;
+    }
+}
+
+
+
+@media (min-width:576px) and (max-width: 991px){
+
+    .navbar {
+        padding: 10px 15px;
+    }
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+    .navbar-nav .nav-link {
+        font-size: 1rem;
+        padding: 8px 10px;
+    }
+    .navbar-collapse {
+        justify-content: center;
+    }
+    .navbar-toggler {
+        font-size: 1.25rem;
+    }
+
+    .bigimg {
+        position: relative;
+        text-align: center; 
+    }
+    
+    .bigimg img {
+        width: 100%; 
+        height: auto;
+    }
+    
+    .bigimg p {
+        position: absolute;
+        color: white;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1.5rem; 
+        padding: 0 10px; 
+    }
+
+    #children {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .over, .blind, .now {
+        width: 100%;
+        margin-bottom: 20px;
+        height: auto;
+    }
+
+    .hand {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .button {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    #payment {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .ivan {
+        width: 90%; 
+        gap: 20px; 
+    }
+
+    .ivan img {
+        width: 150px; 
+    }
+
+    #people {
+        height: auto;
+    }
+
+    #payment {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .ivan {
+        width: 100%; 
+    }
+
+    #people {
+        height: auto; 
+    }
+
+    .gallery {
+        width: 45%;
+    }
+
+    .about .volunteer {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .about .row {
+        display: flex;
+        flex-direction: column;
+       margin-left: 0;
+    }
+
+    .about img {
+        width: 100%;
+        height: auto;
+    }
+}
