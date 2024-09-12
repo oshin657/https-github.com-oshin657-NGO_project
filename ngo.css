@@ -289,6 +289,96 @@ footer{
     color: white;
 }
 
+
+@media (max-width: 414px) {
+    #children {
+        display: block;
+        margin-left: 0;
+    }
+
+    .over, .blind, .now {
+        width: 100%;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+    }
+
+    .over {
+        background-color: #F86F2D;
+        padding: 15px;
+        height: auto;
+    }
+
+    .blind {
+        background-color: #FA8E3C;
+        padding: 15px;
+        height: auto;
+    }
+
+    .now {
+        background-color: #F9A93A;
+        padding: 15px;
+        height: auto;
+    }
+
+    .button {
+        width: 100px;
+        padding: 8px;
+    }
+
+    .button:hover {
+        background-color: black;
+        color: #ffffff;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    span {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    #love {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hand {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .hand div img {
+        width: 40px;
+    }
+
+    .hand div span {
+        font-size: 14px;
+    }
+
+    .hand div span:first-child {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+
+}
+
+
 @media (max-width: 576px) {
 
     .bigimg p{
